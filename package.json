@@ -1,0 +1,21 @@
+{
+  "name": "${#name#}",
+  "version": "${#version=1.0.0#}",
+  "description": "${#description#}",
+  "main": "${#entry=index.js#}",
+  "keywords": ${#keywords:array#},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/${#githubRepository=owner/project#}.git"
+  },
+  "bugs": {
+    "url": "http://github.com/${#githubRepository=owner/project#}/issues"
+  },
+  "author": "${#author#}",
+  "license": "${#license=ISC#}",
+  "dependencies": {
+  }
+}
