@@ -1,9 +1,9 @@
 {
   "name": "${#name#}",
   "version": "${#version=1.0.0#}",
-  "description": "${#description#}",
+  "description": "${#description=none#}",
   "main": "${#entry=index.js#}",
-  "keywords": ${#keywords:array#},
+  "keywords": ${#keywords:array=#},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
